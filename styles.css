@@ -1,0 +1,156 @@
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 47px 0 178px 42px;
+}
+
+.link-header {
+    color: #17233D;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.875px;
+    text-align: center;
+    cursor: pointer;
+    margin-right: 32px;
+}
+
+.button-header {
+    width: 124px;
+    height: 51px;
+    gap: 0px;
+    opacity: 0px;
+    background: #6FBF44;
+    border: 1px solid #4CB538; 
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.logo-image {
+    margin: 163 0 0 121px;
+    width: 595.18px;
+    height: 500px;
+    display: inline-block;
+}
+
+section {
+    display: inline-block;
+    margin-left: 84.82px;
+}
+
+h1 {
+    color: #161A49;
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 82px;
+    width: 582px;
+}
+
+p {
+    color: #4B505A;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    width: 493px;
+    margin-top: 47px;
+    margin-bottom: 55px;
+}
+
+.link-main {
+    color:#6FBF44;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 1300px) {
+
+    header {
+        margin-bottom: 80px;
+    }
+
+    section {
+        margin-left: 45px;
+       
+    }
+
+    .button-header {
+        width: 91px;
+        height: 31px;
+        margin-left: 65%;
+        display: block;
+    }
+
+    
+    .wrapper {
+        display: block;
+        height: auto;
+        width: 100%;
+        
+    }
+
+    img {
+        position: absolute;
+        width: 70%;
+        top: 70%;
+        left: 12%;
+    }
+
+    a:not(.link-main) {
+        display: none;
+    }
+
+    .link-main {
+        margin-left: 100px;
+    }
+
+
+    h1 {
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+        justify-content: center;
+        width: 278px;
+        
+    }
+    
+    p{
+        font-size: 18px;
+        line-height: 33px;
+        text-align: center;
+        justify-content: center;
+        width: 304px;
+        height: 165px;
+        margin-bottom: 20px;
+        margin-top: 30px;
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+     
+    header {
+        margin-bottom: 50px;
+    }
+
+
+    p {
+        margin-bottom: 20px;
+    }
+    
+    img {
+        top: 65%;
+        left: 15%;
+    }
+}
